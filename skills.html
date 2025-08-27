@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Horizontal layout for skills */
+    .skills-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px; /* spacing between skill cards */
+      flex-wrap: wrap; /* wraps to next line on small screens */
+      margin-top: 20px;
+    }
+
+    .skill-card {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="skills.html" class="active"><i class="fas fa-code"></i> Skills</a></li>
+      <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="certificates.html"><i class="fas fa-award"></i> Certificates</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Skills Section -->
+  <section class="page">
+    <h2>⚡ My Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fab fa-html5 fa-4x" style="color:#E34F26;"></i>
+        <h3>HTML</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-css3-alt fa-4x" style="color:#1572B6;"></i>
+        <h3>CSS</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-js fa-4x" style="color:#F7DF1E;"></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-python fa-4x" style="color:#3776AB;"></i>
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-java fa-4x" style="color:#007396;"></i>
+        <h3>Java</h3>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
